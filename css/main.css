@@ -43,9 +43,73 @@ h3 {
   margin: 0;
 }
 
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
 
+#logo{
+  width: 160px;
+}
 
+header .wrapper{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+header nav ul{
+  display:flex;
+  list-style: none;
+}
+
+header nav ul a{
+  display: inline-block;
+  background-color: #F54F95;
+  color: #fff;
+  padding: .75em 1.25em;
+  text-decoration: none;
+  margin-left: 1em;
+  border: 1px solid #F54F95;
+}
+
+header nav ul a:hover, header nav ul a:focus{
+  background-color: #fff;
+  color: #F54F95;
+  transition: 0.3s ease-in-out;
+}
+
+#hero{
+  background-color: #F54F95;
+  height: 60vh;
+  background-image: url(../images/hero-donuts.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section{
+  margin: 4em 0;
+}
+
+.product-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+}
+
+.product-card{
+  border-radius: 14px;
+  
+}
+
+.product-card:nth-child(1){
+  background-color: #e1729a;
+}
 
 
 
